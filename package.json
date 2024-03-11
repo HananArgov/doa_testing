@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "wdio_test": "*",
+    "@types/jasmine": "^5.1.4",
+    "@wdio/cli": "^8.33.1",
+    "@wdio/jasmine-framework": "^8.33.1",
+    "@wdio/local-runner": "^8.33.1",
+    "@wdio/spec-reporter": "^8.32.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "name": "doa_testing",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./src/wdio.test.conf.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
